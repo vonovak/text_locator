@@ -28,11 +28,17 @@ settings
 --------
 The launchfile contains some parameters you may want to change:
 
-	enable_pcl - Enables the spatial information. If disabled, you will only get the recognized text. True by default.
-	enable_param_debug - If enabled, the node will write an image with the detection result to your home directory. You can use 		it to fine-tune the parameters of the detector or just observe the results. Currently, changing the detection parameters is 		only available from the sources. False by default. Note that normally the node does not write any images to your drive.
+enable_pcl - 
+Enables the spatial information. If disabled, you will only get the recognized text. True by default.
 
-	lang - Language for tesseract to expect. This is always a three-character code. Tesseract supports a number of [languages](https://code.google.com/p/tesseract-ocr/downloads/list). Set to "eng" by default.
-	page_mode - Tesseract page mode. Tells tesseract whether to expect a character, a word, a whole line, etc. Defined [here](https://code.google.com/p/tesseract-ocr/source/browse/trunk/ccstruct/publictypes.h). Set to "PSM_SINGLE_LINE" by default.
+enable_param_debug - 
+If enabled, the node will write an image with the detection result to your home directory. You can use it to fine-tune the parameters of the detector or just observe the results. Currently, changing the detection parameters is only available from the sources. False by default. Note that normally the node does not write any images to your drive.
+
+lang - 
+Language for tesseract to expect. This is always a three-character code.Tesseract supports a number of [languages](https://code.google.com/p/tesseract-ocr/downloads/list). Set to "eng" by default.
+
+page_mode - 
+Tesseract page mode. Tells tesseract whether to expect a character, a word, a whole line, etc. Defined [here](https://code.google.com/p/tesseract-ocr/source/browse/trunk/ccstruct/publictypes.h#151). Set to "PSM_SINGLE_LINE" by default.
 
 general information
 -------------------
@@ -41,9 +47,8 @@ When used out of the box, the detection algorithm uses its default parameters an
 acknowledgements
 ----------------
 The code builds upon:
+
 [CCV](http://libccv.org/) computer vision library for text detection.
+
 [Tesseract OCR](https://code.google.com/p/tesseract-ocr/) for text recognition.
 
-author
-------
-Vojtech Novak
