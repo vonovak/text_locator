@@ -72,7 +72,7 @@ target_link_libraries(text_locator_node ${LIBS} ${PCL_LIBRARIES} ${catkin_LIBRAR
 ## Install ##
 #############
 
-install(TARGETS text_locator_node
+install(TARGETS text_locator_node lib/libccv.a
    ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
    LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
    RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
