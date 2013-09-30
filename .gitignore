@@ -17,3 +17,6 @@ install_manifest.txt
 # Compiled Static libraries
 *.lai
 *.la
+
+#temp files
+*~
