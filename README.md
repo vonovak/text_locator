@@ -3,6 +3,11 @@ text_locator
 
 text_locator is a ROS package that can detect and recognize text in images from the MS kinect / Asus Xtion sensors. Also, it can give you spatial information about the text, ie. where the text is in the 3D space, with respect to the sensor.
 
+demo
+----
+
+https://www.youtube.com/watch?v=nBe_H5m3WLs
+
 usage
 -----
 Install the package from this repo by downloading it to your workspace and running catkin_make.
